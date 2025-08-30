@@ -1,0 +1,7 @@
+{
+    "sfx.environment.ocean.waves":{
+        "sounds":[
+            "vantage:sfx/environment/ocean/waves"
+        ]
+    }
+}

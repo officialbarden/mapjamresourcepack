@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "description": {
+            "text": "VANTAGE",
+            "font": "minecraft:uniform",
+            "bold": true
+        },
+        "pack_format": 64
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "model": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "fallback":{
+            "type":"model",
+            "model":"item/poisonous_potato"
+        },
+        "entries": [
+            {
+                "threshold": 101,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "vantage:item/tools/gravity_gun"
+                }
+            },
+            {
+                "threshold": 102,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "vantage:item/tools/zero_point_builder"
+                }
+            },
+            {
+                "threshold": 103,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "vantage:item/tools/impulsifier_gun"
+                }
+            }
+        ]
+    },
+    "hand_animation_on_swap": false
+}

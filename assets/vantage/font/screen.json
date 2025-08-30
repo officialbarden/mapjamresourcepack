@@ -1,0 +1,18 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "vantage:screen/dark.png",
+            "ascent": 128,
+            "height": 256,
+            "chars": ["\uE001"]
+        },
+        {
+            "type": "bitmap",
+            "file": "vantage:screen/bright.png",
+            "ascent": 128,
+            "height": 256,
+            "chars": ["\uE002"]
+        }
+    ]
+}

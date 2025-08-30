@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "ttf",
+            "file": "vantage:ttf_files/sftransrobotics.ttf",
+            "size": 20,
+            "oversample": 20,
+            "shift": [0,0]
+        }
+    ]
+}
