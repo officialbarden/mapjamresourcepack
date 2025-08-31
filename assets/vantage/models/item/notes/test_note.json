@@ -1,0 +1,6 @@
+{
+    "parent": "vantage:item/notes/note",
+    "textures": {
+        "note": "vantage:item/notes/test_note"
+    }
+}
