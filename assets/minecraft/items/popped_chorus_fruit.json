@@ -23,6 +23,13 @@
                     "type": "minecraft:model",
                     "model": "vantage:item/props/belt_cover/1"
                 }
+            },
+            {
+                "threshold": 310,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "vantage:item/props/belt_cover/conveyor_dispenser"
+                }
             }
         ]
     },
