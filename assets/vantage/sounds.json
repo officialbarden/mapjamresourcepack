@@ -3,5 +3,15 @@
         "sounds":[
             "vantage:sfx/environment/ocean/waves"
         ]
+    },
+    "sfx.environment.door.open":{
+        "sounds":[
+            "vantage:sfx/environment/door/open1"
+        ]
+    },
+    "sfx.environment.alarm":{
+        "sounds":[
+            "vantage:sfx/environment/alarm/alarm1"
+        ]
     }
 }

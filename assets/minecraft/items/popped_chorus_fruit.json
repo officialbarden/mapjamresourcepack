@@ -1,0 +1,30 @@
+{
+    "model": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "entries": [
+            {
+                "threshold": 101,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "vantage:item/posters/1"
+                }
+            },
+            {
+                "threshold": 201,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "vantage:item/props/shelf/1"
+                }
+            },
+            {
+                "threshold": 301,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "vantage:item/props/belt_cover/1"
+                }
+            }
+        ]
+    },
+    "hand_animation_on_swap": false
+}

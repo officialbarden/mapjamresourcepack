@@ -810,6 +810,11 @@
 			"rotation": [-141.75, -49, -180],
 			"translation": [-3.75, 1.75, 0],
 			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"rotation": [13.5, -90, 0],
+			"translation": [-6, 0, -5.5],
+			"scale": [3, 3, 3]
 		}
 	},
 	"groups": [

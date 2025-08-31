@@ -10,8 +10,80 @@
             {
                 "threshold": 101,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "vantage:item/tools/gravity_gun"
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "fallback":{
+                        "type":"model",
+                        "model":"vantage:item/tools/gravity_gun"
+                    },
+                    "index": 1,
+                    "entries": [
+                        {
+                            "threshold": 0,
+                            "model": {
+                                "type": "composite",
+                                "models": [
+                                    {
+                                        "type": "model",
+                                        "model": "vantage:item/tools/screen/standby"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "vantage:item/tools/gravity_gun"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "threshold": 1,
+                            "model": {
+                                "type": "composite",
+                                "models": [
+                                    {
+                                        "type": "model",
+                                        "model": "vantage:item/tools/screen/light"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "vantage:item/tools/gravity_gun"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "threshold": 2,
+                            "model": {
+                                "type": "composite",
+                                "models": [
+                                    {
+                                        "type": "model",
+                                        "model": "vantage:item/tools/screen/medium"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "vantage:item/tools/gravity_gun"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "threshold": 3,
+                            "model": {
+                                "type": "composite",
+                                "models": [
+                                    {
+                                        "type": "model",
+                                        "model": "vantage:item/tools/screen/heavy"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "vantage:item/tools/gravity_gun"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                    
                 }
             },
             {
@@ -24,8 +96,80 @@
             {
                 "threshold": 103,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "vantage:item/tools/impulsifier_gun"
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "fallback":{
+                        "type":"model",
+                        "model":"vantage:item/tools/impulsifier_gun"
+                    },
+                    "index": 1,
+                    "entries": [
+                        {
+                            "threshold": 0,
+                            "model": {
+                                "type": "composite",
+                                "models": [
+                                    {
+                                        "type": "model",
+                                        "model": "vantage:item/tools/screen/standby"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "vantage:item/tools/impulsifier_gun"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "threshold": 1,
+                            "model": {
+                                "type": "composite",
+                                "models": [
+                                    {
+                                        "type": "model",
+                                        "model": "vantage:item/tools/screen/light"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "vantage:item/tools/impulsifier_gun"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "threshold": 2,
+                            "model": {
+                                "type": "composite",
+                                "models": [
+                                    {
+                                        "type": "model",
+                                        "model": "vantage:item/tools/screen/medium"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "vantage:item/tools/impulsifier_gun"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "threshold": 3,
+                            "model": {
+                                "type": "composite",
+                                "models": [
+                                    {
+                                        "type": "model",
+                                        "model": "vantage:item/tools/screen/heavy"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "vantage:item/tools/impulsifier_gun"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                    
                 }
             }
         ]

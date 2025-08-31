@@ -1,0 +1,6 @@
+{
+    "parent": "vantage:item/tools/screen/weight_screen",
+    "textures": {
+        "2": "vantage:item/screen/light"
+    }
+}
