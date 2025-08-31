@@ -30,6 +30,34 @@
                     "type": "minecraft:model",
                     "model": "vantage:item/props/belt_cover/conveyor_dispenser"
                 }
+            },
+            {
+                "threshold": 401,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "vantage:item/props/lights/red_warning_light"
+                }
+            },
+            {
+                "threshold": 501,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "vantage:item/props/railings/safety_railings_pillar"
+                }
+            },
+            {
+                "threshold": 502,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "vantage:item/props/railings/safety_railings"
+                }
+            },
+            {
+                "threshold": 503,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "vantage:item/props/railings/safety_railings_mid_part"
+                }
             }
         ]
     },
