@@ -58,6 +58,19 @@
                     "type": "minecraft:model",
                     "model": "vantage:item/props/railings/safety_railings_mid_part"
                 }
+            },
+            {
+                "threshold": 601,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "vantage:item/props/pipe/single_block_pipe",
+                    "tints": [
+                        {
+                            "type": "custom_model_data",
+                            "default": -1
+                        }
+                    ]
+                }
             }
         ]
     },
