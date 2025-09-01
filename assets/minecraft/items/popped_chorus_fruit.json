@@ -71,6 +71,32 @@
                         }
                     ]
                 }
+            },
+            {
+                "threshold": 602,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "vantage:item/props/pipe/single_block_corner_pipe",
+                    "tints": [
+                        {
+                            "type": "custom_model_data",
+                            "default": -1
+                        }
+                    ]
+                }
+            },
+            {
+                "threshold": 603,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "vantage:item/props/pipe/single_block_junction_pipe",
+                    "tints": [
+                        {
+                            "type": "custom_model_data",
+                            "default": -1
+                        }
+                    ]
+                }
             }
         ]
     },
